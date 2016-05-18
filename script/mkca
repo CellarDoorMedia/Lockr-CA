@@ -1,0 +1,15 @@
+#!/bin/bash
+
+create_ca() {
+    openssl req \
+        -x509 \
+        -config openssl-ca.cnf \
+        -newkey rsa:4096 \
+	-keyout private/cakey.pem \
+        -sha256 \
+        -out cacert.pem \
+        -outform PEM
+}
+
+create_ca
+
