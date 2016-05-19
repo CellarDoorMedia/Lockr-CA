@@ -76,6 +76,8 @@ Sign the certificate? [y/n]:y
 1 out of 1 certificate requests certified, commit? [y/n]y
 Write out database with 1 new entries
 Data Base Updated
+$ ls dev.5a58857e-7224-41f3-833d-7a779be88e10.*
+dev.5a58857e-7224-41f3-833d-7a779be88e10.key dev.5a58857e-7224-41f3-833d-7a779be88e10.pem
 ```
 
 ## Applying for Inclusion as a Lockr Partner
