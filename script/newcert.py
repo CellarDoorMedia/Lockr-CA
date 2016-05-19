@@ -46,9 +46,6 @@ def create_subject(args):
         'CN={common}.{base_cn}',
     ]).format(**arg_dict)
 
-    print args
-    print subject
-
     ret = subprocess.call([
         'openssl', 'req', '-config', 'openssl-ca.cnf',
         '-newkey', 'rsa:2048',
