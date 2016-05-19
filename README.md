@@ -6,7 +6,7 @@ authority.
 ## Creating the Certificate Authority
 
 ```sh
-./script/mkca
+$ ./script/mkca
 ```
 
 You will be prompted for a key passphrase and subject information for
@@ -15,7 +15,7 @@ the CA.
 ## Creating Application Certificates
 
 ```sh
-./script/newcert.py --help
+$ ./script/newcert.py --help
 usage: newcert.py [-h] [--country COUNTRY] [--state STATE]
                   [--location LOCATION] [--org ORG] [--base-cn BASE_CN]
                   [--config CONFIG]
